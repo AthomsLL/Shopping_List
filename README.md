@@ -1,5 +1,7 @@
 # shopping_list
 
+Small project developed with VueJS, VueX, MongoDB and styled-components
+
 ## Project setup
 ```
 npm install
