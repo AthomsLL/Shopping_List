@@ -1,0 +1,41 @@
+# BACKEND #
+
+LOGIN / SIGNUP
+==============
+
+[] Refacto controllers with modules mentality
+
+[] Add oAuth Google login/signup feature
+
+# FRONTEND #
+
+LOGIN / SIGNUP
+==============
+
+[] Create auth store (login + signup)
+
+[] Create login component
+
+[] Create signup component
+
+[] Create forgot password component
+
+[] Create login/signup page
+
+PRODUCTS
+========
+
+[] Create product store (add, edit, delete, get all products, get one product)
+
+[] Create "Add product" component
+
+[] Create "Edit product" component
+
+[] Create "Delete product" component
+
+[] Create All products page
+
+
+
+
+
