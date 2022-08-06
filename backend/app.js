@@ -7,7 +7,7 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 
 const productRoutes = require('./routes/product');
-const userRoutes = require('./routes/user');
+const userRoutes = require('./routes/auth');
 
 // MongoDB Database connection
 mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@${process.env.DB_URL}`,

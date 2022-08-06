@@ -3,7 +3,7 @@
 LOGIN / SIGNUP
 ==============
 
-[] Refacto controllers with modules mentality
+[X] Refacto controllers with modules mentality
 
 [] Add oAuth Google login/signup feature
 

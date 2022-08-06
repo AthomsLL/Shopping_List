@@ -2,7 +2,7 @@ const express = require('express');
 const passport = require('passport');
 const router = express.Router();
 
-const productCtrl = require('../controllers/product');
+const productCtrl = require('../controllers/product/product');
 
 router.get(
     '/', 
