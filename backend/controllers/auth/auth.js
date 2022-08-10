@@ -1,4 +1,7 @@
+const userLogin = require('./login.js');
+const userSignup = require('./signup.js');
+
 module.exports = { 
-    userLogin: require('./login.js'),
-    userSignup: require('./signup.js')
+    userLogin,
+    userSignup
 }

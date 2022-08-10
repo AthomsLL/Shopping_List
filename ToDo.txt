@@ -3,11 +3,27 @@
 LOGIN / SIGNUP
 ==============
 
-[X] Refacto controllers with modules mentality
+[X] Refacto login/signup controllers with modules mentality
 
-[] Add oAuth Google login/signup feature
+[] Add oAuth Google login/signup controllers
+
+[] Add forgotCode generate middleware
+
+[] Add forgotCode controller to send in email notification
+
+PRODUCTS
+========
+
+[X] Refacto products controllers with modules mentality
 
 # FRONTEND #
+
+UI / UX
+=======
+
+[] Add a Dark Mode
+
+[] Use Vue Styled Components
 
 LOGIN / SIGNUP
 ==============
