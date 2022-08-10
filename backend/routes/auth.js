@@ -6,7 +6,8 @@ const authCtrl = require('../controllers/auth/auth.js');
 
 router.post(
     '/signup', 
-    authCtrl.userSignup.signup
+    authCtrl.userSignup.signup,
+
 );
 
 router.post(

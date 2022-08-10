@@ -7,7 +7,7 @@ LOGIN / SIGNUP
 
 [] Add oAuth Google login/signup controllers
 
-[] Add forgotCode generate middleware
+[X] Add generateResetCode middleware
 
 [] Add forgotCode controller to send in email notification
 
