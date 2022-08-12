@@ -1,8 +1,8 @@
 const passport = require("passport");
 const GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
 require('dotenv').config();
-const User = require('../models/User');
-const googleAuth = require('../controllers/auth/googleAuth.js');
+const User = require('../../models/User');
+const googleAuthCtrl = require('../../controllers/auth/googleAuth.js');
 
 passport.serializeUser((user, done) => {
   done(null, user.id);
@@ -30,5 +30,5 @@ passport.use(
       const account = profile;
       console.log(account);
     }
-    // googleAuth.googleLoginOrSignup
+    // googleAuthCtrl.googleLoginOrSignup
 ));

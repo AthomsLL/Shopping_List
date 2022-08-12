@@ -49,10 +49,10 @@ app.use(passport.initialize());
 /* app.use(passport.session()); */
 
 // JWT strategy call
-require('./middleware/passport')(passport);
+require('./middleware/passport/passport')(passport);
 
 // Google strategy call
-require('./middleware/passportGoogleOAuth.js');
+require('./middleware/passport/passportGoogleOAuth.js');
 
 // Reading requests Content
 app.use(bodyParser.json());

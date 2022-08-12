@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const validate = require('../middleware/inputValidator');
+const validate = require('../middleware/validators/inputValidator');
 
 const productSchema = mongoose.Schema({
     title: {

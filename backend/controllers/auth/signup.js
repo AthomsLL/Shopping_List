@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const emailValidator = require('email-validator');
-const passwordValidator = require('../../middleware/passwordValidator');
+const passwordValidator = require('../../middleware/validators/passwordValidator');
 const User = require('../../models/User');
 
 const signup = (req, res, next) => {
