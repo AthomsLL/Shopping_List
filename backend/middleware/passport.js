@@ -5,6 +5,21 @@ const User = require('../models/User');
 
 // Logique d'authentification JWT
 module.exports = (passport) => {
+    passport.serializeUser((user, done) => {
+        done(null, user.id);
+    })
+    
+    passport.deserializeUser((id, done) => {
+        User.find({
+            where: {
+                id: id
+            }
+            .then((user) => {
+                done(null, user);
+            })
+        })
+    })
+
     const options = {
         jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
         secretOrKey: `${process.env.SECRET}`

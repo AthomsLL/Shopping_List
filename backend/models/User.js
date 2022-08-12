@@ -16,8 +16,16 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true,
     },
+    googleId: {
+        type: String,
+        unique: true,
+    },
     forgotCode: {
-        type: Number,
+        type: String,
+        validate : {
+            validator : Number.isInteger,
+            message   : '{VALUE} is not an integer value'
+        },
     }
 });
 

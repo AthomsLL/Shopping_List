@@ -5,11 +5,11 @@ LOGIN / SIGNUP
 
 [X] Refacto login/signup controllers with modules mentality
 
-[] Add oAuth Google login/signup controllers
+[] Add oAuth Google login/signup controller
+
+[X] Add oAuth Google login/signup route
 
 [X] Add generateResetCode middleware
-
-[] Add forgotCode controller to send in email notification
 
 PRODUCTS
 ========
